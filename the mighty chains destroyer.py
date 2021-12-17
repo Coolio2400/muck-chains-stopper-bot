@@ -10,7 +10,7 @@ import DA_SECRETS
 print("\u001b[31;1m" + str(praw.__version__))
 
 Muck_list = ["muck", "muck.", "muck!", "muck?", "mֳ¼ck", "mֳ¼ck.", "mֳ¼ck!", "mukc", "mֳ¼ck?", "m\*ck",
-             "kcum", "׀¼uck", "much", "mcuk"]
+             "kcum", "׀¼uck", "much", "mcuk, muuk, muc, mucc, mu_ck, m_uck, muc_k, muck/"]
 Blocked_users = [] # to use you need to write the user name without the "u/"
 Enable_Blocking = False
 
@@ -22,7 +22,7 @@ password = DA_SECRETS.password
 user_agent = "u/hananelroe's and u/HoseanRC's comment chains breaker bot"
 comment_content = "#**SHUT**\n___\n ^(I'm just a simple bot that wants to stop muck chains, [here is my source code](https://github.com/hananelroe/muck-chains-stopper-bot))\n\n ^(I'm a collaboration between [Hananelroe](https://www.reddit.com/u/Hananelroe) and [HoseanRC](https://www.reddit.com/u/HoseanRC))"
 content = "\n\n^(I'm a collaboration between [Hananelroe](https://www.reddit.com/u/Hananelroe) and [HoseanRC](https://www.reddit.com/u/HoseanRC)! we are breaking muck, much, mukc and etc chains)\n\n^(if you're a real boner - upvote this comment. it helps my karma.)"
-why = "WHY?" + content
+why = "WHY!?" + content
 thanks = "thanks! :)" + content
 fixed_comment = ""
 
